@@ -33,7 +33,7 @@ cacheSolve <- function(x, ...) {
   m <- x$getnv()##Inverse of x
  
   if(!is.null(m)){
-    message("getting cached data")
+    message("getting data")
     return(m) ##Return inverse Matrix if was set
   }
   
